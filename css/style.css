@@ -1,19 +1,6 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @font-face {
-    font-family: 'helvetica';
-    src: url('fonts/helvetica/helveticaneuew23forsky-reg.eot');
-    src: url('fonts/helvetica/helveticaneuew23forsky-reg.eot') format('embedded-opentype'),
-    url('fonts/helvetica/helveticaneuew23forsky-reg.woff') format('woff'),
-    url('fonts/helvetica/helveticaneuew23forsky-reg.ttf') format('truetype'),
-    url('fonts/helvetica/helveticaneuew23forsky-reg.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    unicode-range: U+30-39;
-}
-
-
-@font-face {
     font-family: 'GESSTwoBold';
     src: url('../fonts/f.otf');
     font-weight: normal;
@@ -34,10 +21,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'aa';
+    src: url('../fonts/f.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #fff;
     direction: rtl;
-    font-family: 'GESSTwoBold';
+    font-family: 'aa';
     text-align: right;
 }
 
@@ -125,6 +119,26 @@ li {
     color: #79000e;
 }
 
+.boxes .card .card-title {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.link, .link_1 {
+    font-size: 16px;
+}
+.link, .link_1 {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    color: #000!important;
+    font-size: 20px;
+    width: 100%;
+}
+
 .hover-up {
     opacity: 1;
     -webkit-transition: all .3s ease-in-out;
@@ -162,8 +176,70 @@ li {
     font-size: 20px;
     max-width: 400px;
     margin: auto;
+    margin-top: 30px;
+}
+/* new st */
+.boxes .card {
+    overflow: hidden;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.boxes .card .card-img-overlay {
+    width: 100%;
+    max-width: 450px;
+}
+.boxes .card .card-title {
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+}
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.link, .link_1 {
+    font-size: 16px;
+}
+.link .arrow-icon {
+    float: left;
 }
 
+.link, .link_1 {
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    color: #000!important;
+    font-size: 20px;
+    width: 100%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.link .arrow-icon, .link_1 .arrow-icon, .reportPage .btn-download, .ul-circle li:before {
+    right: 0!important;
+    left: auto!important;
+}
+.link .arrow-icon {
+    position: relative;
+    float: right;
+}
+.arrow-icon {
+    transform: rotate(
+180deg
+);
+}
+/* H1, H2, H3, H4, H5, H6, .heading_1, .heading_2 {
+    font-family: 'DroidArabicKufi', sans-serif!important;
+} */
+
+/* END */
 .para_1.right {
     margin-right: 0;
 }
@@ -225,12 +301,17 @@ li {
 
     max-width: 400px;
 }
-
+.maps{
+    width: 790px;
+    height: 351px;
+    border: 0;
+    
+}
 .floatDiv h2 {
-    font-size: 30px;
+    font-size: 46px;
     /* text-shadow: 2px 3px 9px #000; */
     -webkit-text-shadow: 2px 3px 9px #000;
-color: #ef7b41;
+    color: #ffffff;
 }
 .dana{
     font-size: 30px;
@@ -266,7 +347,7 @@ header .btn {
 .btn-secondary {
     background: #ef7c42;
     border-color: #ef7c42;
-    color: #000;
+    color: #fff;
 }
 
 .btn:active, .btn:focus, .btn:hover {
@@ -297,6 +378,7 @@ header .btn {
 
 .btn.border {
     border: #000 2px solid !important;
+
 }
 
 .bg-1 {
@@ -468,6 +550,7 @@ background-image: url("../img/cur-bg.png");
 .heading_2 {
     font-size: 20px;
     padding-bottom: 20px;
+    font-family: 'GESSTwoLight';
 }
 
 .content p {

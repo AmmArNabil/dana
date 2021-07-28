@@ -20,6 +20,7 @@
     .lang.mobile {
         display: inline-block;
     }
+    
 }
 
 @media (max-width: 950px) {
@@ -102,6 +103,7 @@
 
     .bg-1.exchangeServices .text-right .btn {
         border-bottom: none !important;
+        color: #212529;
 
     }
 
