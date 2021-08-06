@@ -685,11 +685,27 @@ background-image: url("../img/cur-bg.png");
     top: 50%;
     bottom: 50%;
     left: 0;
-    right: 0;
+    right: 30%;
     margin: auto;
     display: table;
 
 }
+
+/* 
+
+.locations .textCont .text {
+    max-width: 300px;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    left: 0;
+    right: 30%;
+    margin: auto;
+    display: table;
+
+}
+
+*/
 
 .locations .text h4 {
     font-size: 30px;
@@ -1414,7 +1430,7 @@ ul.social-icons {
     /*position: fixed;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding: 200px 0;
+    padding: 200px 0px 368px;
     position: relative;
 
 }

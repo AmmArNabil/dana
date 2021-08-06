@@ -167,6 +167,8 @@
         position: relative;
         top: auto;
         bottom: auto;
+        left: 0;
+        right: 0;
     }
 
     .locations .textCont {
@@ -201,8 +203,8 @@
     }
 
     .aboutPage > div.featured {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .description p {
@@ -241,7 +243,9 @@
     .locations .text h4 {
         font-size: 20px;
         max-width: 200px;
+        text-align: center;
     }
+ 
 }
 
 /*end responsive*/
